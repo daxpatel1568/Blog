@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    width: 100%;
+    /* height: 100%; */
+    /* background-color: rgb(255, 255, 255); */
+}
+.container{
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 10%;
+    max-width:600px;
+    min-height: 600px;
+    /* max-height: 800px; */
+    /* text-align: center; */
+}
+h2 {
+    text-align: center;
+    font-weight: 700;
+}
+.broo {
+    text-align: center;
+    margin-top: 40px;
+}
+.pink {
+    margin-right: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+}
+input {
+    margin-top: 10px;
+    font-size: large ;
+    height: 30px;
+    width: 450px;
+    /* padding: 10px 140px; */
+}
+.pass {
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 340px;
+}
+.ps {
+    margin-top: 20px;
+}
+a {
+    text-decoration: none;
+    color: green;
+}
+.pass > a {
+    color: black;
+}
+#bt{
+    /* text-align: center; */
+    /* margin: auto; */
+
+    cursor: pointer;
+    padding: 20px 80px;
+    margin-top: 30px;
+    background-color: rgb(88, 205, 88);
+    border-radius: 30px;
+    border:2px solid black;
+    text-decoration: none;
+    color: white;
+}
+.signup{
+    display: flex;
+    justify-content: center;
+}
+.gulabi{
+    margin-left:90px ;
+     display: grid;
+    font-size: 14px;    
+    grid-template-columns: auto auto ;
+    margin-top: 20px;
+    list-style-type: square;
+    color: rgb(63, 169, 63)
+    /* grid-template-rows: 2fr 2fr;   */
+}
+hr {
+    border: none;
+    border-top: 1px solid black; /* Adjust thickness and color as needed */
+    margin: 20px 0; /* Adjust spacing as needed */
+  }
+img{
+    width: 250x;
+    height: 30px;
+}
+.fc{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+#fcc{
+    /* text-align: center; */
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    background-color: rgb(99, 113, 201);
+    border-radius: 30px;
+    padding: 9px 60px;
+    border:0px solid black;
+    color: white;
+}
+.gl{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 20px;
+}
+#gcc{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 30px;
+    padding: 7px 80px;
+    border:1px solid grey;
+    background-color: #fff;
+    gap: 10px;
+}
+.gt{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 20px;
+}
+#gtt{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 30px;
+    padding: 7px 80px;
+    border:1px solid grey;
+    background-color: #fff;
+    gap: 10px;
+}
+/* label{
+    font-size: 10px;    
+} */
